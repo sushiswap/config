@@ -1,0 +1,24 @@
+{
+  "name": "@sushiswap/eslint-config",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "homepage": "https://sushi.com",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sushiswap/config.git",
+    "directory": "packages/eslint-config"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/eslint": "^7",
+    "eslint": "^7.20.0",
+    "typescript": "^4.1.5"
+  }
+}
