@@ -2,7 +2,7 @@
 
 SushiSwap config monorepo.
 
-## Eslint
+## ESLint
 
 ```sh
 yarn add --dev @sushiswap/eslint-config
