@@ -166,9 +166,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@sushiswap/eslint-config@workspace:packages/eslint-config"
   dependencies:
-    "@types/eslint": ^7
-    eslint: ^7.20.0
-    typescript: ^4.1.5
+    "@types/eslint": 7.x
+    eslint: 7.x
+    typescript: 4.x
+  peerDependencies:
+    eslint: 7.x
   languageName: unknown
   linkType: soft
 
@@ -176,9 +178,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@sushiswap/hardhat-config@workspace:packages/hardhat-config"
   dependencies:
-    "@types/mocha": ^8.2.1
-    hardhat: ^2.0.10
-    typescript: ^4.1.5
+    "@types/mocha": 8.x
+    hardhat: 2.x
+    typescript: 4.x
+  peerDependencies:
+    hardhat: 2.x
   languageName: unknown
   linkType: soft
 
@@ -186,9 +190,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@sushiswap/prettier-config@workspace:packages/prettier-config"
   dependencies:
-    "@types/prettier": ^2.2.1
-    prettier: ^2.2.1
-    typescript: ^4.1.5
+    "@types/prettier": 2.x
+    prettier: 2.x
+    typescript: 4.x
+  peerDependencies:
+    prettier: 2.x
   languageName: unknown
   linkType: soft
 
@@ -201,7 +207,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:^7":
+"@types/eslint@npm:7.x":
   version: 7.2.6
   resolution: "@types/eslint@npm:7.2.6"
   dependencies:
@@ -232,7 +238,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/mocha@npm:^8.2.1":
+"@types/mocha@npm:8.x":
   version: 8.2.1
   resolution: "@types/mocha@npm:8.2.1"
   checksum: 43585ae2a1034e8f868db181439caf49d1f17b524b3dfdb767a69966965046249f6929f807c1c94e87b21c17abdee5298134053e059a9c08aaac04bff93707e0
@@ -255,7 +261,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prettier@npm:^2.2.1":
+"@types/prettier@npm:2.x":
   version: 2.2.1
   resolution: "@types/prettier@npm:2.2.1"
   checksum: 9dc257dfc51eab6bc1e9ce58df94b309a206b2cdc6768709de3d20f70ae545c616bbc46add6d66f66cfa6cfbb0613dd09e6b6028ff6ff8ba9d3625f38d85cc66
@@ -919,8 +925,6 @@ __metadata:
 "config@workspace:.":
   version: 0.0.0-use.local
   resolution: "config@workspace:."
-  dependencies:
-    typescript: ^4.1.5
   languageName: unknown
   linkType: soft
 
@@ -1251,7 +1255,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.20.0":
+"eslint@npm:7.x":
   version: 7.20.0
   resolution: "eslint@npm:7.20.0"
   dependencies:
@@ -1929,7 +1933,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"hardhat@npm:^2.0.10":
+"hardhat@npm:2.x":
   version: 2.0.10
   resolution: "hardhat@npm:2.0.10"
   dependencies:
@@ -3229,7 +3233,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.2.1":
+"prettier@npm:2.x":
   version: 2.2.1
   resolution: "prettier@npm:2.2.1"
   bin:
@@ -4069,7 +4073,7 @@ resolve@1.17.0:
   languageName: node
   linkType: hard
 
-typescript@^4.1.5:
+typescript@4.x:
   version: 4.1.5
   resolution: "typescript@npm:4.1.5"
   bin:
@@ -4079,7 +4083,7 @@ typescript@^4.1.5:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.1.5#builtin<compat/typescript>":
+"typescript@patch:typescript@4.x#builtin<compat/typescript>":
   version: 4.1.5
   resolution: "typescript@patch:typescript@npm%3A4.1.5#builtin<compat/typescript>::version=4.1.5&hash=cc6730"
   bin:
