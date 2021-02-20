@@ -22,11 +22,15 @@ yarn add --dev @sushiswap/prettier-config
 
 ## Install
 
+```sh
 yarn workspaces foreach install
+```
 
 ## Build
 
+```sh
 yarn workspaces foreach build
+```
 
 ## Versioning
 
