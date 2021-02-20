@@ -19,3 +19,15 @@ yarn add --dev @sushiswap/hardhat-config
 ```sh
 yarn add --dev @sushiswap/prettier-config
 ```
+
+## Install
+
+yarn workspaces foreach install
+
+## Build
+
+yarn workspaces foreach build
+
+## Versioning
+
+TBC...
