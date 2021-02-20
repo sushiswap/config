@@ -17,5 +17,5 @@ yarn add --dev @sushiswap/hardhat-config
 ## Prettier
 
 ```sh
-yarn add --dev @sushiswap/hardhat-config
+yarn add --dev @sushiswap/prettier-config
 ```
