@@ -2,9 +2,10 @@ import { Options } from "prettier";
 
 const options: Options = {
   endOfLine: "lf",
-  printWidth: 80,
+  printWidth: 120,
   tabWidth: 2,
-  trailingComma: "es5",
+  singleQuote: true,
+  semi: false,
 };
 
 export default options;
