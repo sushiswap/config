@@ -3,6 +3,7 @@ import { readFile, writeFile } from "fs/promises";
 import fetch from "node-fetch";
 import isEqual from "lodash/isEqual";
 import { resolve } from "path";
+import template from "./template";
 
 // 1. Get chain data and store it
 // 2. Use chain data to fill out networks array of hh config
@@ -15,7 +16,7 @@ import { resolve } from "path";
   if (res.status === 200 && res.statusText === "OK") {
     const latest = await res.json();
 
-    const path = resolve(__dirname, "data/chains.json");
+    const path = resolve(__dirname, "../data/chains.json");
 
     try {
       await readFile(path);

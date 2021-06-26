@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "generate": "ts-node generate.ts"
+    "generate": "ts-node ./internal/generate.ts"
   },
   "devDependencies": {
     "@types/lodash": "^4",
