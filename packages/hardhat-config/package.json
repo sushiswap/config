@@ -14,11 +14,16 @@
     "directory": "packages/hardhat-config"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "generate": "ts-node generate.ts"
   },
   "devDependencies": {
+    "@types/lodash": "^4",
     "@types/mocha": "8.x",
+    "@types/node-fetch": "^2",
     "hardhat": "2.x",
+    "lodash": "^4.17.21",
+    "node-fetch": "^2.6.1",
     "typescript": "4.x"
   },
   "peerDependencies": {
